@@ -1,7 +1,9 @@
 P2P MultiUser Chatting
+
 This project is an implementation of a Peer-to-Peer (P2P) MultiUser Chatting application using TCP and UDP protocols. The application allows multiple users to communicate with each other in real-time through chat rooms. The communication with the server (registry) is done using TCP, while communication within the chat rooms utilizes UDP for efficiency.
 
 Features
+
 P2P Architecture: The application is built on a peer-to-peer architecture, where each peer acts as both a client and a server. This decentralized approach allows direct communication between peers without relying on a central server.
 
 TCP Communication: When communicating with the server and during one-to-one interactions, TCP (Transmission Control Protocol) is used. TCP ensures reliable and ordered delivery of messages, making it suitable for important and critical communication.
@@ -13,6 +15,7 @@ MongoDB Registry: The application employs MongoDB as the registry database. The 
 Color-Coded Terminal Chat: The chat interface is designed to run in the terminal and supports color-coded messages. This feature enhances the user experience by visually distinguishing messages and making the chat more engaging.
 
 Usage
+
 To run the application, follow these steps:
 
 Run registry.py to start the server (registry) component. The server handles user registration, manages user information, and facilitates initial connections between peers.
@@ -24,9 +27,11 @@ The chat rooms are created dynamically as users join and interact. Users can sen
 To exit the application, simply close the terminal window or press Ctrl + C to stop the execution of the scripts.
 
 Requirements
+
 Make sure you have the following dependencies installed before running the application:
 
 Python 3.x
+
 MongoDB
 Configuration
 Before running the application, ensure that you configure the following settings:
